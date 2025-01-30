@@ -19,20 +19,26 @@ header{
     padding: 20px 0;
 }
 .logo{
-    width: 40px;
+    width: 60px;
+    padding-top: 15px;
 
 }
 
 ul li{
-    display: inline-block;
+    display: inline-block;   
 }
 
 ul li a{
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
+    font-size: 30px;
 
 }
+ul li a:hover {
+    color: #555; 
+}
+
 
 .content{
     display: flex;
@@ -42,29 +48,37 @@ ul li a{
     margin: auto;
 }
 .content .text{
+    margin: 60px 0;
     width: 40%;
     color: #fff;
 
 }
 
 .content .text h2{
-    font-size: 40px;
+    font-size: 80px;
     text-transform: uppercase;
 }
 
 .content .text p{
-    font-size: 18px;
-    margin: 20px 0;
+    font-size: 30px;
+    margin: 40px 0;
       color: #fff;
 
 }
 
-.content .text a {
-    text-decoration: none;
+.content .text .btn {
+    border:none;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
     background: #fff;
     color: black;
     padding: 8px 15px;
     border-radius: 30px;
+}
+.content .text .btn:hover {
+    color: rgb(0, 0, 0);
+    background-color:#555;
 }
 
 .content .image{
@@ -83,7 +97,7 @@ ul li a{
 }
 
 .icons img{
-    width: 40px;
+    width: 50px;
     transition: 0.5s;
     cursor: pointer;
 }
